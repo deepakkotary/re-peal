@@ -9,12 +9,36 @@
  "orientation":"portrait-primary",
   "theme_color": "white",
   "icons": [
-    {
-      "src": "repeal.png",
-      "sizes": "165x165",
+       {
+      "src": "./re-pea72.png",
+      "sizes": "72x72",
       "purpose": "maskable",
       "type": "image/png"
-      
+    },
+    {
+      "src": "./re-pea128.png",
+      "sizes": "128x128",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal44.png",
+      "sizes": "144x144",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-peal92.png",
+      "sizes": "192x192",
+      "purpose": "maskable",
+      "type": "image/png"
+    },
+    {
+      "src": "./re-pea512.png",
+      "sizes": "512x512",
+      "purpose": "maskable",
+      "type": "image/png"
     }
   ]
 }
+

@@ -10,31 +10,31 @@
   "theme_color": "white",
   "icons": [
        {
-      "src": "./re-pea72.png",
+      "src": "./re-peal72.png",
       "sizes": "72x72",
       "purpose": "maskable",
       "type": "image/png"
     },
     {
-      "src": "./re-pea128.png",
+      "src": "./re-peal128.png",
       "sizes": "128x128",
       "purpose": "maskable",
       "type": "image/png"
     },
     {
-      "src": "./re-peal44.png",
+      "src": "./re-peal144.png",
       "sizes": "144x144",
       "purpose": "maskable",
       "type": "image/png"
     },
     {
-      "src": "./re-peal92.png",
+      "src": "./re-peal192.png",
       "sizes": "192x192",
       "purpose": "maskable",
       "type": "image/png"
     },
     {
-      "src": "./re-pea512.png",
+      "src": "./re-peal512.png",
       "sizes": "512x512",
       "purpose": "maskable",
       "type": "image/png"

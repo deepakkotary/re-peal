@@ -4,10 +4,11 @@
   "description": "store your ideas",
   "start_url": "/re-peal/index.html",
   "display": "standalone",
-  "background_color": "white",
+  "background_color": "#ffffff",
    "prefer_related_applications": false,
  "orientation":"portrait-primary",
-  "theme_color": "white",
+  "id": "re peal",
+  "theme_color": "#ffffff",
   "icons": [
        {
       "src": "./re-peal72.png",
@@ -36,7 +37,7 @@
     {
       "src": "./re-peal512.png",
       "sizes": "512x512",
-      "purpose": "maskable",
+      "purpose": "any",
       "type": "image/png"
     }
   ]

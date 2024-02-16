@@ -1,0 +1,20 @@
+{
+  "name": "re peal",
+  "short_name": "re peal",
+  "description": "store your ideas",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+   "prefer_related_applications": false,
+ "orientation":"portrait-primary",
+  "theme_color": "white",
+  "icons": [
+    {
+      "src": "repeal.png",
+      "sizes": "165x165",
+      "purpose": "maskable",
+      "type": "image/png"
+      
+    }
+  ]
+}

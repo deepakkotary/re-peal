@@ -2,7 +2,7 @@
   "name": "re peal",
   "short_name": "re peal",
   "description": "store your ideas",
-  "start_url": "/index.html",
+  "start_url": "/re-peal/index.html",
   "display": "standalone",
   "background_color": "white",
    "prefer_related_applications": false,

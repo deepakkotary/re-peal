@@ -44,5 +44,27 @@ window.addEventListener('keyup',()=>{
 store();
 })
 ///////>>>>>>>>>>>
+
+// In your main JavaScript file
+
+// Request permission
+Notification.requestPermission().then(permission => {
+  if (permission === 'granted') {
+    console.log('Notification permission granted');
+  } else {
+    console.warn('Notification permission denied');
+  }
+});
+
+// Subscribe to push notifications (using FCM as an example)
+const messaging = firebase.messaging();
+messaging.getToken().then(token => {
+  console.log('FCM Token:', token);
+  // Send this token to your server for later use
+}).catch(error => {
+  console.error('Error getting FCM token:', error);
+});
+
+
 ///////>>>>>>>>>>>
 ///////>>>>>>>>>>>

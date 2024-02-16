@@ -1,14 +1,16 @@
 
 function store(){
- var data = document.querySelector('textarea   ');    
-localStorage.setItem('data',data.value);   
+ var data = document.querySelector('textarea').value;    
+localStorage.setItem('data',data)  
 }
 
 function restore (){
  var data = document.querySelector('textarea   ');  
 var getValue= localStorage.getItem('data');
-data.innerText=getValue;
+data.value=getValue;
 }
+
+////////////kgvk
 window.addEventListener('load',()=>{
  restore();    
 })

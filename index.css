@@ -8,6 +8,9 @@ body{
      overflow: hidden;
      background-color: white;
 }
+.body-no-scroll {
+  overflow: hidden;
+}
 .container{
      background-color: transparent;
      width: 100%;

@@ -37,7 +37,7 @@ data.addEventListener('blur',()=>{
 
 
 ///////>>>>>>>>>>>
-window.addEventListener('keypress',()=>{
-//alert("stop")  
+window.addEventListener('keyup',()=>{
+//alert("sto")  
 store();
 })

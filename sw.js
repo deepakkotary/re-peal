@@ -7,6 +7,7 @@ self.addEventListener('install',(event)=>{
              [
                "/re-peal",
                "/re-peal/app.js",
+               "/re-peal.well-known/assetlinks.json",
                   "/re-peal/index.html",
                   "/re-peal/index.js",
                   "/re-peal/manifest.json",

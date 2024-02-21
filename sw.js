@@ -11,12 +11,12 @@ self.addEventListener('install',(event)=>{
                   "/re-peal/index.html",
                   "/re-peal/index.js",
                   "/re-peal/manifest.json",
-                  "/re-peal/re-peal144.jpg",
-                                "/re-peal/re-peal72.jpg",
+                  "/re-peal/re-peal144.png",
+                                "/re-peal/re-peal72.png",
                                 "/re-peal/apple-touch-icon.png",
-                                 "/re-peal/re-peal128.jpg",
-                                  "/re-peal/re-peall92.jpg",
-                                  "/re-peal/re-peal512.jpg",                  
+                                 "/re-peal/re-peal128.png",
+                                  "/re-peal/re-peall92.png",
+                                  "/re-peal/re-peal512.png",                  
                   "/re-peal/index.css"
 
 

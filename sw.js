@@ -7,7 +7,6 @@ self.addEventListener('install',(event)=>{
              [
                "/re-peal",
                "/re-peal/app.js",
-               "/re-peal.well-known/assetlinks.json",
                   "/re-peal/index.html",
                   "/re-peal/index.js",
                   "/re-peal/manifest.json",
@@ -101,24 +100,6 @@ self.addEventListener('message', (event) => {
 // 
 // 
 // >>>>>>>>>>>>>>>>>
-
-// Inside your service worker file
-
-self.addEventListener('push', function(event) {
-  const options = {
-    body: event.data.text(),
-    icon: './re-peal512.png',
-    // Add other notification options as needed
-    
-  };
-
-  event.waitUntil(
-    self.registration.showNotification('re peal', options)
-  );
-});
-
-
-
 
 
 // >>>>>>>>>>>>>>>>>

@@ -15,6 +15,11 @@ window.addEventListener('load',()=>{
  restore();    
 })
 
+window.addEventListener('click',ev=>{
+     store();
+})
+
+
 window.addEventListener('beforeunload',()=>{
 store();     
 })

@@ -24,13 +24,8 @@ function reload(){
 }
 
 var data = document.querySelector('textarea   ');  
-data.addEventListener('focus',()=>{
- //alert('focus')
-})
 
-data.addEventListener('blur',()=>{
- //alert('blur')    
-})
+
 
 
 
@@ -53,7 +48,6 @@ store();
 ///////>>>>>>>>>>>
 
 
-        
 
 
 
@@ -62,6 +56,71 @@ store();
 
 
 
+///////>>>>>>>>>>>
+
+///////>>>>>>>>>>>
+
+document.addEventListener("click", function(event) {
+    var clickedElement = event.target;
+
+var btn=document.getElementsByClassName('btn');
+
+for(i=0;i<=btn.length;i++){
+//console.log(btn[i])
+var ourKey =btn[i];
 
 
+if(clickedElement==ourKey){
+ 
+// console.log(clickedElement)
+
+console.log("Clicked element:", clickedElement);
+
+// know yuu can write here 
+
+//
+
+console.log(clickedElement.innerText)
+
+var textarea = document.querySelector("textarea");
+var insertAfter = textarea.selectionStart; // Change this to the desired number of characters
+
+    var currentText = textarea.value;
+
+    if (currentText.length >=insertAfter) {
+        var newText = currentText.substring(0, insertAfter) + 
+        clickedElement.innerText
+        + currentText.substring(insertAfter);
+        textarea.value = newText;
+    }
+
+
+//
+
+textarea.focus();
+
+
+//
+//
+
+
+
+}
+}
+
+
+
+    
+});
+
+///////>>>>>>>>>>>
+
+
+
+
+///////>>>>>>>>>>>
+///////>>>>>>>>>>>
+///////>>>>>>>>>>>
+///////>>>>>>>>>>>
+///////>>>>>>>>>>>
 ///////>>>>>>>>>>>

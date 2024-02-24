@@ -97,12 +97,36 @@ var insertAfter = textarea.selectionStart; // Change this to the desired number 
         clickedElement.innerText
         + currentText.substring(insertAfter);
         textarea.value = newText;
+        
+        
+        
+  /////      
+  /////
+console.log(insertAfter)
+textarea.setSelectionRange(insertAfter+1,insertAfter+1);
+textarea.focus();
+  
+  
+  
+  /////      
+  /////      
+  /////      
+  /////      
+        
+       
+       
+       
+       
+       
+       
+        
+        
     }
 
 
 //
 
-textarea.focus();
+//textarea.focus();
 
 
 //

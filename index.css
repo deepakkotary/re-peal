@@ -47,10 +47,30 @@ textarea{
      font-family: inherit;
      padding: 10px 5px 80px 5px ;
      font-size: 18px;
-     font-weight: 500;
+     font-weight: 600;
      justify-content: center;
      text-align: justify;
+     
+     transition: border-color 0.3s ease-in-out;
+  animation: textAnimation 3s infinite alternate;
 }
+
+
+@keyframes textAnimation {
+  from {
+    transform: scale(1);
+    opacity: 1;
+    
+  }
+  to {
+    transform: scale(1.01);
+    opacity: 0.8;
+    font-weight: 900;
+  }
+}
+
+
+
 body::-webkit-scrollbar{
   width: 0px;   
   height: 0px;
@@ -134,4 +154,35 @@ textarea::placeholder{
     border: 0px;
     border-radius: 5px;
     background-color: transparent;
+    font-size: 22px;
+    font-weight:300;
+    
 }
+
+
+.btn:hover{
+   background-color: transparent;
+   animation: keyup 1s ease-in-out;
+}
+
+@keyframes keyup {
+0%{
+     transform: scale(1);
+     
+}
+
+50%{
+     transform: scale(1.5);
+     font-size: 20px;
+     font-weight: 900;
+}
+
+100%{
+     transform: scale(1);
+}
+
+     
+}
+
+
+

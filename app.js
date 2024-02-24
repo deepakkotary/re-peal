@@ -149,6 +149,41 @@ textarea.focus();
 
 ///////>>>>>>>>>>>
 ///////>>>>>>>>>>>
+
+ function printSpecificContent() {
+      // Show the print-friendly content
+     // document.querySelector('.float').style.display = 'none';
+
+      // Print the specific content
+      
+var x =document.querySelector('.ourNotes').value ; 
+document.body.innerText= x;    
+      
+      
+      
+      
+      window.print();
+
+      // Restore the original content after printing
+      //document.querySelector('.float').style.display = 'inline';
+    }
+  
+ 
+//////
+
+document.querySelector('#download').addEventListener('click',ev=>{
+    printSpecificContent();
+ 
+ 
+ setTimeout(()=>{
+     window.reload(); 
+ },2000)   
+    
+    
+    
+})
+
+
 ///////>>>>>>>>>>>
 ///////>>>>>>>>>>>
 ///////>>>>>>>>>>>
